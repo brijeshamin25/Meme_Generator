@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Meme.css">
+    <title>Meme Generator Templete</title>
+</head>
+<body>
+    <h1>Meme Generator</h1>
+
+    <main>
+        <section class="container">
+            <h2 id="out">Output</h2>
+            
+            <h3>Programmer Memes...</h3>
+            <div class="contMeme"></div>
+
+            <h3>Tell me something funny!...</h3>
+            <div class="contJoke"></div>
+
+            <h3>Give me some wisdom...</h3>
+            <div class="contQuote"></div>
+
+            <h3>I want a riddle...</h3>
+            <div class="contRiddle"></div>
+        </section>
+
+        <section class="sideBar">
+
+            <h2 id="act">Action</h2>
+
+            <button onclick="showMeme()">Show a Meme</button>
+            <button onclick="showJoke()">Tell me a Joke</button>
+            <button onclick="someQuote()">Random Quote</button>
+            <button onclick="someRiddle()">Riddle Me!</button>
+            <div class="revelBtn" onclick="revelAns()">Reveal Riddle Answer</div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footBtn" >Code by <a href="https://github.com/brijeshamin25?tab=repositories" target="_blank">@Brijesh Amin</a></p>
+    </footer>
+
+    <script src="Meme.js"></script>
+</body>
+</html>
